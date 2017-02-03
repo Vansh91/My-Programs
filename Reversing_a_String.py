@@ -1,3 +1,5 @@
+# This program takes a string from the user and returns the reversed string
+
 def rev(a):
     new = ''
     index = len(a)
