@@ -1,3 +1,5 @@
+# This is an elaborate example of classes using the property of inheritance in python
+
 class Employee:
 
     raise_amt = 1.04
