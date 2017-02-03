@@ -1,3 +1,6 @@
+# This program creates a list of all the numbers 
+# that can divide a number provided by the user
+
 def NumberDivisibility():
     num = int(input("Enter a number:"))
     a = []
