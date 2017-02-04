@@ -1,4 +1,4 @@
-# This program shows how to create a Fibonacci seriesfrom a given user limit
+"""This program shows how to create a Fibonacci seriesfrom a given user limit"""
 
 def fib():
     a, b = 0, 1
