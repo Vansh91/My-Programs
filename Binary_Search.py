@@ -1,5 +1,5 @@
-# This program taks an input from the user and checks to see,
-# if it's in the given sorted list using binary search.
+"""This program taks an input from the user and checks to see,"""
+"""if it's in the given sorted list using binary search."""
 
 list1 = [3,10,17,35,45,60]
 
