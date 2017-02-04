@@ -1,4 +1,4 @@
-# This program prints numbers present in both list1 and list2
+"""This program prints numbers present in both list1 and list2"""
 def CommonList():
     list1 = [2,1,2,3,4,5]
     list2 = [2,3,4,7,8,9]
