@@ -1,4 +1,4 @@
-# This program displays all the even numbers from a list using list comprehension.
+"""This program displays all the even numbers from a list using list comprehension."""
 
 def Divisibility():
     a = [1,4,9,16,25,36,49,64,81,100]
