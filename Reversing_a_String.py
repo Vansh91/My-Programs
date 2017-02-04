@@ -1,4 +1,4 @@
-# This program takes a string from the user and returns the reversed string
+""" This program takes a string from the user and returns the reversed string """
 
 def rev(a):
     new = ''
@@ -11,14 +11,14 @@ def rev(a):
 
 print(rev(a))
 
-# Alternate Method 2
+""" Alternate Method 2 """
 
 def rev2(str):
     return ''.join(reversed(str))
 
 print(rev2('Hi There'))
 
-# Alternate Method 3
+""" Alternate Method 3 """
 
 def rev3():
     a = 'Sample String'
