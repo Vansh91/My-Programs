@@ -1,4 +1,4 @@
-# This program takes three numbers from a user and prints the maximum out of all
+"""This program takes three numbers from a user and prints the maximum out of all"""
 
 num1 = int(input('Enter first number'))
 num2 = int(input('Enter second number'))
