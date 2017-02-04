@@ -1,4 +1,4 @@
-# This is an elaborate example of classes using the property of inheritance in python
+""" This is an elaborate example of classes using the property of inheritance in python """
 
 class Employee:
 
@@ -20,7 +20,7 @@ class Employee:
     def set_raise_amt(cls, amount):
         cls.raise_amt = amount
     @classmethod
-    #This is an alternative constructor
+    # This is an alternative constructor
     def from_string(cls, emp_str):
         first, last, pay = emp_str.split('-')
         return cls(first, last, pay)
@@ -66,4 +66,5 @@ mgr1 = Manager("Ashley", "Williams", 90000, [dev1])
 #mgr1.remove_emp(dev1)
 #mgr1.print_emp()
 
-print(issubclass(Developer, Employee)) # issubclass returns a boolean value (true/false) to check if the first argument is a child class of the second argument.
+print(issubclass(Developer, Employee)) 
+""" issubclass returns a boolean value (true/false) to check if the first argument is a child class of the second argument. """
