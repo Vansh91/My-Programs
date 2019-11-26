@@ -19,7 +19,7 @@ def binary_search():
         if(num_to_search == list1[mid]):
             found = True
             print('Found it!')
-        elif(num_toSearch < list1[mid]):
+        elif(num_to_Search < list1[mid]):
             last = mid - 1
             found = True
             print('Found below')
