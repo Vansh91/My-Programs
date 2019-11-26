@@ -15,11 +15,11 @@ def binary_search():
     found = False
 
     while(first <= last and not found):
-        mid = (first + last)/2
+        mid = (first + last)//2
         if(num_to_search == list1[mid]):
             found = True
             print('Found it!')
-        elif(num_to_Search < list1[mid]):
+        elif(num_to_search < list1[mid]):
             last = mid - 1
             found = True
             print('Found below')
